@@ -19,6 +19,8 @@
       };
     </script>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+    
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
@@ -40,4 +42,12 @@
       </div>
     </footer>
   </body>
+  
+  <script>
+    mermaid.initialize({
+        startOnLoad:true
+    });
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+  </script>
+  
 </html>
