@@ -30,4 +30,4 @@ To enable MathJax in GitHub Pages, see [this stack overflow answer](https://stac
 
 To enable Mermaid in GitHub Pages, see [this stack overflow answer](https://stackoverflow.com/a/53893998).
 
-Both solutions are applied in [_layouts/default.html](_layouts/default.html).
+Both solutions are applied in [_layouts/default.html](https://github.com/ralfhandl/mermaid-diagrams/blob/main/_layouts/default.html).
