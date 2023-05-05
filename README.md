@@ -15,3 +15,9 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+This results in a runtime of 
+
+$$t_{total} = t_A+\max(t_B,t_C) + t_D$$
+
+with $t_x$ the runtime of step $x \in \\{ A,B,C,D \\} $.
