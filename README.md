@@ -24,6 +24,10 @@ with $t_x$ the runtime of step $x \in \\{ A,B,C,D \\}$.
 
 ## Instructions
 
-MathJax is now natively supported when viewing `.md` files on GitHub. However, it is not automatically supported in [GitHub Pages](https://ralfhandl.github.io/mermaid-diagrams/). To enable MathJax in GitHub Pages, see [this stack overflow answer](https://stackoverflow.com/a/72931039).
+Mermaid and MathJax are now natively supported when viewing `.md` files on GitHub. However, they are not automatically supported in [GitHub Pages](https://ralfhandl.github.io/mermaid-diagrams/). 
 
-TODO: similarly enable Mermaid diagrams.
+To enable MathJax in GitHub Pages, see [this stack overflow answer](https://stackoverflow.com/a/72931039).
+
+To enable Mermaid in GitHub Pages, see [this stack overflow answer](https://stackoverflow.com/a/53893998).
+
+Both solutions are applied in [_layouts/default.html](_layouts/default.html).
