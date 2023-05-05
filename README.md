@@ -21,3 +21,9 @@ This results in a runtime of
 $$t_\text{total} = t_A+\max(t_B,t_C) + t_D$$
 
 with $t_x$ the runtime of step $x \in \\{ A,B,C,D \\}$.
+
+## Instructions
+
+MathJax is now natively supported when viewing `.md` files on GitHub. However, it is not automatically supported in [GitHub Pages](https://ralfhandl.github.io/mermaid-diagrams/). To enable MathJax in GitHub Pages, see [this stack overflow answer](https://stackoverflow.com/a/72931039).
+
+TODO: similarly enable Mermaid diagrams.
