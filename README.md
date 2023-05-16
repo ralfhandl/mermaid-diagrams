@@ -1,4 +1,4 @@
-# Experiments with Mermaid diagrams
+# Experiments with Mermaid diagrams and MathJax formulas
 
 Github Enterprise 3.7 supports Mermaid diagrams, see [Creating Diagrams](https://docs.github.com/en/enterprise-server@3.7/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
 
