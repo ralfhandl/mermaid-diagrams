@@ -6,6 +6,63 @@ Use the [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/
 
 ## Example
 
+A simple class diagram:
+
+```mermaid
+classDiagram
+    Time "1 Time" -- "*" Sale
+    Customer "1 Customer" -- "* Sales" Sale
+    Category "1 Category" -- "* Products" Product
+    Product <|-- FoodProduct
+    Product <|-- NonFoodProduct
+    Product "1 Product" -- "* Sales" Sale 
+    Sale "*" -- "1 SalesOrganization" SalesOrganization
+    SalesOrganization "0..1 Superordinate" <-- SalesOrganization
+    
+    class Time {
+      Date: Edm.Date ~~id~~
+      Month: Edm.String
+      Quarter: Edm.String
+      Year: Edm.Int16
+    }
+    
+    class Category {
+      ID: Edm.String ~~id~~
+      Name: Edm.String
+    }
+    
+    class Product {
+      ID: Edm.String ~~id~~
+      Name: Edm.String
+      Color: Edm.String
+      TaxRate: Edm.Decimal
+    }
+    
+    class FoodProduct {
+      Rating: Edm.Byte
+    }
+    
+    class NonFoodProduct {
+      RatingClass: Edm.String
+    }
+    
+    class Customer {
+      ID: Edm.String ~~id~~
+      Name: Edm.String
+      Country: Edm.String
+    }
+    
+    class Sale {
+      ID: Edm.String ~~id~~
+      Amount: Edm.Decimal
+    }
+    
+    class SalesOrganization {
+      ID: Edm.String ~~id~~
+      Name: Edm.String
+    }    
+```
+
 Here is a simple flow chart:
 
 ```mermaid
