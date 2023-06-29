@@ -6,6 +6,7 @@ Use the [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/
 
 ## Example
 
+<!--
 A simple class diagram:
 
 ```mermaid
@@ -62,6 +63,7 @@ classDiagram
       Name: Edm.String
     }    
 ```
+--> 
 
 Here is a simple flow chart:
 
