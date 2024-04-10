@@ -81,11 +81,13 @@ $$t_\text{total} = t_A+\max(t_B,t_C) + t_D$$
 
 with $t_x$ the runtime of step $x \in \\{ A,B,C,D \\}$.
 
+<!--
 A table with embedded list
 
 | foo | bar |
 |-----|-----|
 | left | <ul><li>one</li><li>two</li></ul> |
+-->
 
 ## Instructions
 
